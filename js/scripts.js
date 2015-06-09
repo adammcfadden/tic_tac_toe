@@ -126,7 +126,6 @@ Game.prototype.winner = function() {
 $(document).ready(function() {
 
   $("button#play").click(function() {
-    $(window.location.replace(x));
     $("button#play").hide();
     $("button#reset").show();
     var game = new Game(3)
@@ -332,25 +331,3 @@ $(document).ready(function() {
     });
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-x = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
