@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1 class="page-header">Tic-Tac-Toe</h1>
+      <div id="results">
+        <p class="lead"><span id="winner"></span></p>
+      </div>
+      <div id="board">
+        <div class="row">
+          <div class="col-sm-4" id="top-left">
+          </div>
+          <div class="col-sm-4" id="top-mid">
+          </div>
+          <div class="col-sm-4" id="top-right">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4" id="mid-left">
+          </div>
+          <div class="col-sm-4" id="mid-mid">
+          </div>
+          <div class="col-sm-4" id="mid-right">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4" id="bottom-left">
+          </div>
+          <div class="col-sm-4" id="bottom-mid">
+          </div>
+          <div class="col-sm-4" id="bottom-right">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <button class="btn btn-lg" id="play"> Play! </button>
+      <button class="btn btn-lg" id="reset"> Reset! </button>
+    </div>
+    <div id="players">
+      <h1></h1> <!-- will show whose turn it is -->
+
+    </div>
+    <!-- <div id="results">
+      <p class="lead"><span id="winner"></span></p>
+    </div> -->
+  </body>
+</html>
